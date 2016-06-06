@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-featured-topics-extended",
-	"name": "Featured Topics Extended",
+	"id": "nodebb-plugin-featured-topics-mno",
+	"name": "Featured Topics (Minecraft.no)",
 	"description": "Adds a customisable news/blog page and some widgets using featured topics.",
 	"library": "./library.js",
 	"hooks": [
