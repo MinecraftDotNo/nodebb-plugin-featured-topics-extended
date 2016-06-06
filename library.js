@@ -344,7 +344,7 @@ function getDate(timestamp){
 // Render the news.
 function render(req, res, next) {
 	var payload       = {config: {relative_path: nconf.get('relative_path')}, newsTemplate: ''};
-	var topicsPerPage = 5;
+	var topicsPerPage = 6;
 	var topicIndex    = 0;
 
 	if (!req.uid && settings.get('newsHideAnon')) return res.render('news', payload);
